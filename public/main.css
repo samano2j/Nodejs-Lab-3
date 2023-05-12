@@ -1,0 +1,55 @@
+body {
+    background-color:#373E98;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 3rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+a:focus, a:visited, a:active, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 5px;
+    font-size: 2rem;
+}
+
+.backLink, .backLink:focus, .backLink:visited, .backLink:active, .backLink:hover {
+    color: green;
+}
+
+.readSection p {
+    color: yellow;
+}

@@ -1,0 +1,13 @@
+<%- include('partials/header.ejs') %>
+<header>
+    <h1>Leave a Note for our Hosts</h1>
+</header>
+<section class="leaveSection">
+    <a href="http://localhost:8000/" class="backLink">Back</a>
+    <form method="POST">
+        <textarea name="note" placeholder="Leave a Note" rows="10" cols="100"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+<%- include('partials/footer.ejs') %>
+
